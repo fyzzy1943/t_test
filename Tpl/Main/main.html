@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Insert title here</title>
+</head>
+<body>
+	main:{$msg|default="没有值!"} <br />
+	
+	<form method="post" action="__URL__/sign">
+		<volist name="list" id="item">
+			<input type="checkbox" name="clist[]" value="{$item.id}" />{$item.name} {$item.description} <br />
+		</volist>
+		<input type="image" src="/t_test/extra/image/sign.jpg" />
+	</form>
+</body>
+</html>

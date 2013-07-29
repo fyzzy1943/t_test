@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Insert title here</title>
+	
+	
+</head>
+<body>
+	{$Think.now} <br />
+	result:{$msg|default="没有值!"} <br />
+	
+	uid:{$sign[0].uid} <hr />
+	<volist name="sign" id="item">
+		oid:{$item.oid} <br />
+		count:{$item.scount} <br />
+		total:{$item.stotal} <br />
+		lastdate:{$item.slastdate}<hr />
+	</volist>
+	
+	<div id="txt"></div>
+	
+	<script type="text/javascript">
+		var txt=new String();
+		<volist name="shistory" id="item">
+			txt+="oid:{$item.oid} <br />";
+			txt+="date:{$item.sdate} <br />";
+			var firstDay=new Date(parseInt("{$item.sdate}".substr(0, 4)), parseInt("{$item.sdate}".substr(5, 2))-1, 1);
+			txt+="#############################<br />";
+			txt+="&nbsp;Sun Mon Tue Wed Thu Fri Sat"+"<br />";
+			
+			var count=0;
+			for(var i=0; i<firstDay.getDay(); i++) {
+				txt+="&nbsp;&nbsp;&nbsp;.";
+				count++;
+			}
+			var jso={$item.jso};
+			for(var i=1; i<={$item.month}; i++) {
+				count++;
+				if(i<10) {
+					if(jso[i-1]==1)	{
+						txt+="&nbsp;&nbsp;<b>"+i+"</b>.";
+					} else {
+						txt+="&nbsp;&nbsp;"+i+".";
+					}
+					
+				} else {
+					if(jso[i-1]==1)	{
+						txt+="&nbsp;<b>"+i+"</b>.";
+					} else {
+						txt+="&nbsp;"+i+".";
+					}
+					
+				}
+				if(count%7==0) {
+					txt+="<br />"
+				}
+				
+			} txt+="<br />";
+			txt+="#############################<br />";
+		</volist>
+		
+		document.getElementById("txt").innerHTML=txt;
+	</script>
+</body>
+
+</html>
+

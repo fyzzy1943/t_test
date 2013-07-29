@@ -1,0 +1,181 @@
+[ 2013-08-01T11:31:44+08:00 ] 127.0.0.1 /t_test/index.php/Main/sign
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003087s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003293s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001666s ]
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `pro_sign` [ RunTime:0.006742s ]
+SQL: SHOW COLUMNS FROM `pro_shistory` [ RunTime:0.006350s ]
+SQL: SELECT * FROM `pro_sign` WHERE ( uid='1' AND oid='1' ) LIMIT 1   [ RunTime:0.000541s ]
+SQL: UPDATE `pro_sign` SET `uid`=1,`oid`=1,`scount`=1,`stotal`=1,`slastdate`='2013-08-01' WHERE ( `id` = 1 ) [ RunTime:0.043075s ]
+SQL: SELECT * FROM `pro_shistory` WHERE ( uid='1' AND oid='1' AND sdate='2013-08' ) LIMIT 1   [ RunTime:0.013828s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\www\t_test\Lib\Action\MainAction.class.php 第 53 行.
+SQL: INSERT INTO `pro_shistory` (`uid`,`oid`,`sdate`,`shistory`) VALUES (1,1,'2013-08',2) [ RunTime:0.052187s ]
+NOTIC: [8] Undefined variable: msg F:\www\t_test\Lib\Action\MainAction.class.php 第 55 行.
+SQL: SELECT * FROM `pro_sign` WHERE ( uid='1' AND oid='2' ) LIMIT 1   [ RunTime:0.000532s ]
+SQL: UPDATE `pro_sign` SET `uid`=1,`oid`=2,`scount`=1,`stotal`=1,`slastdate`='2013-08-01' WHERE ( `id` = 2 ) [ RunTime:0.028126s ]
+SQL: SELECT * FROM `pro_shistory` WHERE ( uid='1' AND oid='2' AND sdate='2013-08' ) LIMIT 1   [ RunTime:0.000651s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\www\t_test\Lib\Action\MainAction.class.php 第 53 行.
+SQL: INSERT INTO `pro_shistory` (`uid`,`oid`,`sdate`,`shistory`) VALUES (1,2,'2013-08',2) [ RunTime:0.024634s ]
+NOTIC: [8] Use of undefined constant main - assumed 'main' F:\www\t_test\Lib\Action\MainAction.class.php 第 81 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: list F:\www\t_test\Runtime\Cache\38dd2411953184a9684bc2acd0771941.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010210s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000867s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001239s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000779s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000992s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004151s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001067s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2013-08-01T12:17:20+08:00 ] 127.0.0.1 /t_test/index.php/Main/sign
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001096s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `pro_sign` [ RunTime:0.030771s ]
+SQL: SHOW COLUMNS FROM `pro_shistory` [ RunTime:0.004574s ]
+SQL: SELECT * FROM `pro_sign` WHERE ( uid='1' AND oid='1' ) LIMIT 1   [ RunTime:0.000490s ]
+SQL: UPDATE `pro_sign` SET `uid`=1,`oid`=1,`scount`=1,`stotal`=6,`slastdate`='2013-08-01' WHERE ( `id` = 1 ) [ RunTime:0.632213s ]
+SQL: SELECT * FROM `pro_shistory` WHERE ( uid='1' AND oid='1' AND sdate='2013-08' ) LIMIT 1   [ RunTime:0.000608s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\www\t_test\Lib\Action\MainAction.class.php 第 53 行.
+SQL: INSERT INTO `pro_shistory` (`uid`,`oid`,`sdate`,`shistory`) VALUES (1,1,'2013-08',1) [ RunTime:0.079226s ]
+NOTIC: [8] Undefined variable: msg F:\www\t_test\Lib\Action\MainAction.class.php 第 56 行.
+
+[ 2013-08-01T12:17:21+08:00 ] 127.0.0.1 /t_test/index.php/Main/result/msg/%2C1%E7%AD%BE%E5%88%B0%E6%88%90%E5%8A%9F.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000690s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `pro_sign` [ RunTime:0.002951s ]
+SQL: SELECT * FROM `pro_sign` WHERE ( uid='1' )  [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `pro_shistory` [ RunTime:0.002748s ]
+SQL: SELECT * FROM `pro_shistory` WHERE ( uid='1' )  [ RunTime:0.000247s ]
+NOTIC: [2] Missing argument 2 for toarray(), called in F:\www\t_test\Lib\Action\MainAction.class.php on line 95 and defined F:\www\t_test\Common\common.php 第 64 行.
+NOTIC: [8] Undefined variable: date F:\www\t_test\Common\common.php 第 65 行.
+NOTIC: [8] Undefined offset: 1 F:\www\t_test\Common\common.php 第 66 行.
+NOTIC: [2] Missing argument 2 for toarray(), called in F:\www\t_test\Lib\Action\MainAction.class.php on line 95 and defined F:\www\t_test\Common\common.php 第 64 行.
+NOTIC: [8] Undefined variable: date F:\www\t_test\Common\common.php 第 65 行.
+NOTIC: [8] Undefined offset: 1 F:\www\t_test\Common\common.php 第 66 行.
+NOTIC: [2] Missing argument 2 for toarray(), called in F:\www\t_test\Lib\Action\MainAction.class.php on line 95 and defined F:\www\t_test\Common\common.php 第 64 行.
+NOTIC: [8] Undefined variable: date F:\www\t_test\Common\common.php 第 65 行.
+NOTIC: [8] Undefined offset: 1 F:\www\t_test\Common\common.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009157s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000444s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000414s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000328s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001804s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000560s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2013-08-01T12:17:57+08:00 ] 127.0.0.1 /t_test/index.php/Main/sign
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000741s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `pro_sign` [ RunTime:0.003539s ]
+SQL: SHOW COLUMNS FROM `pro_shistory` [ RunTime:0.003181s ]
+SQL: SELECT * FROM `pro_sign` WHERE ( uid='1' AND oid='1' ) LIMIT 1   [ RunTime:0.000426s ]
+NOTIC: [8] Undefined variable: msg F:\www\t_test\Lib\Action\MainAction.class.php 第 31 行.
+SQL: SELECT * FROM `pro_sign` WHERE ( uid='1' AND oid='2' ) LIMIT 1   [ RunTime:0.000314s ]
+SQL: UPDATE `pro_sign` SET `uid`=1,`oid`=2,`scount`=1,`stotal`=5,`slastdate`='2013-08-01' WHERE ( `id` = 2 ) [ RunTime:0.035968s ]
+SQL: SELECT * FROM `pro_shistory` WHERE ( uid='1' AND oid='2' AND sdate='2013-08' ) LIMIT 1   [ RunTime:0.000516s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\www\t_test\Lib\Action\MainAction.class.php 第 53 行.
+SQL: INSERT INTO `pro_shistory` (`uid`,`oid`,`sdate`,`shistory`) VALUES (1,2,'2013-08',1) [ RunTime:0.042429s ]
+
+[ 2013-08-01T12:17:58+08:00 ] 127.0.0.1 /t_test/index.php/Main/result/msg/%2C1%E5%B7%B2%E7%AD%BE%E5%88%B0%2C2%E7%AD%BE%E5%88%B0%E6%88%90%E5%8A%9F.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001355s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `pro_sign` [ RunTime:0.005087s ]
+SQL: SELECT * FROM `pro_sign` WHERE ( uid='1' )  [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `pro_shistory` [ RunTime:0.004616s ]
+SQL: SELECT * FROM `pro_shistory` WHERE ( uid='1' )  [ RunTime:0.000495s ]
+NOTIC: [2] Missing argument 2 for toarray(), called in F:\www\t_test\Lib\Action\MainAction.class.php on line 95 and defined F:\www\t_test\Common\common.php 第 64 行.
+NOTIC: [8] Undefined variable: date F:\www\t_test\Common\common.php 第 65 行.
+NOTIC: [8] Undefined offset: 1 F:\www\t_test\Common\common.php 第 66 行.
+NOTIC: [2] Missing argument 2 for toarray(), called in F:\www\t_test\Lib\Action\MainAction.class.php on line 95 and defined F:\www\t_test\Common\common.php 第 64 行.
+NOTIC: [8] Undefined variable: date F:\www\t_test\Common\common.php 第 65 行.
+NOTIC: [8] Undefined offset: 1 F:\www\t_test\Common\common.php 第 66 行.
+NOTIC: [2] Missing argument 2 for toarray(), called in F:\www\t_test\Lib\Action\MainAction.class.php on line 95 and defined F:\www\t_test\Common\common.php 第 64 行.
+NOTIC: [8] Undefined variable: date F:\www\t_test\Common\common.php 第 65 行.
+NOTIC: [8] Undefined offset: 1 F:\www\t_test\Common\common.php 第 66 行.
+NOTIC: [2] Missing argument 2 for toarray(), called in F:\www\t_test\Lib\Action\MainAction.class.php on line 95 and defined F:\www\t_test\Common\common.php 第 64 行.
+NOTIC: [8] Undefined variable: date F:\www\t_test\Common\common.php 第 65 行.
+NOTIC: [8] Undefined offset: 1 F:\www\t_test\Common\common.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011915s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000371s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000470s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000257s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001650s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000639s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2013-08-01T12:19:14+08:00 ] 127.0.0.1 /t_test/index.php/Main/sign
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000625s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `pro_sign` [ RunTime:0.003395s ]
+SQL: SHOW COLUMNS FROM `pro_shistory` [ RunTime:0.002854s ]
+SQL: SELECT * FROM `pro_sign` WHERE ( uid='1' AND oid='1' ) LIMIT 1   [ RunTime:0.000419s ]
+NOTIC: [8] Undefined variable: msg F:\www\t_test\Lib\Action\MainAction.class.php 第 31 行.
+SQL: SELECT * FROM `pro_sign` WHERE ( uid='1' AND oid='2' ) LIMIT 1   [ RunTime:0.000372s ]
+
+[ 2013-08-01T12:19:15+08:00 ] 127.0.0.1 /t_test/index.php/Main/result/msg/%2C1%E5%B7%B2%E7%AD%BE%E5%88%B0%2C2%E5%B7%B2%E7%AD%BE%E5%88%B0.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001579s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001811s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `pro_sign` [ RunTime:0.004938s ]
+SQL: SELECT * FROM `pro_sign` WHERE ( uid='1' )  [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `pro_shistory` [ RunTime:0.003864s ]
+SQL: SELECT * FROM `pro_shistory` WHERE ( uid='1' )  [ RunTime:0.000482s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012408s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000454s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000399s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000325s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001891s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000669s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000742s ]
+

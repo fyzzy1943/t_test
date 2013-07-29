@@ -1,0 +1,993 @@
+[ 2013-07-15T10:19:45+08:00 ] 127.0.0.1 /t_test/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001315s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' F:\www\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' F:\www\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000583s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000534s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000461s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002333s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000802s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2013-07-15T10:19:50+08:00 ] 127.0.0.1 /t_test/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000899s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' F:\www\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' F:\www\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000425s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000423s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000362s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001864s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2013-07-15T15:40:15+08:00 ] 127.0.0.1 /t_test/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003347s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023515s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002868s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003083s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002292s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011401s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002688s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002807s ]
+
+[ 2013-07-15T15:57:03+08:00 ] 127.0.0.1 /t_test/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004128s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013534s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001593s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001584s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001430s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006448s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001707s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001777s ]
+
+[ 2013-07-15T15:57:40+08:00 ] 127.0.0.1 /t_test/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009407s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001197s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001434s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001179s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005266s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001206s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2013-07-15T16:06:01+08:00 ] 127.0.0.1 /t_test/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008842s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000891s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001176s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000804s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003993s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001462s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001538s ]
+
+[ 2013-07-15T16:10:49+08:00 ] 127.0.0.1 /t_test/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008730s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000945s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001209s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000855s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004208s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001309s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2013-07-15T16:10:51+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.027364s ]
+INFO: [ route_check ] --END-- [ RunTime:0.027533s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+NOTIC: [8] Undefined variable: Form F:\www\t_test\Lib\Action\IndexAction.class.php 第 11 行.
+NOTIC: [8] Trying to get property of non-object F:\www\t_test\Lib\Action\IndexAction.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009735s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001165s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000949s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000999s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004578s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001121s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2013-07-15T16:11:13+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001974s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002179s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+NOTIC: [8] Undefined variable: Form F:\www\t_test\Lib\Action\IndexAction.class.php 第 11 行.
+NOTIC: [8] Trying to get property of non-object F:\www\t_test\Lib\Action\IndexAction.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013178s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001124s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001189s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001322s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005251s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001444s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001539s ]
+
+[ 2013-07-15T16:21:14+08:00 ] 127.0.0.1 /t_test/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002849s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014513s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001219s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001179s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001042s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004891s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001384s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001470s ]
+
+[ 2013-07-15T16:21:16+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001305s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+NOTIC: [8] Undefined variable: Form F:\www\t_test\Lib\Action\IndexAction.class.php 第 11 行.
+
+[ 2013-07-15T16:21:50+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003411s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003709s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002477s ]
+NOTIC: [8] Undefined variable: Form F:\www\t_test\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Trying to get property of non-object F:\www\t_test\Lib\Action\IndexAction.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018417s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002158s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002209s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002006s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008940s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002426s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002576s ]
+
+[ 2013-07-15T16:24:21+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002138s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+NOTIC: 建议使用I方法替代_post
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011509s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000983s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001026s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000997s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004424s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001146s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2013-07-15T19:26:25+08:00 ] 127.0.0.1 /t_test/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007572s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013868s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001569s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001762s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001564s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006547s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001613s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001705s ]
+
+[ 2013-07-15T19:26:27+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.035023s ]
+INFO: [ route_check ] --END-- [ RunTime:0.035187s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+NOTIC: 建议使用I方法替代_post
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015918s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000886s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000895s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000800s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000983s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003733s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001053s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2013-07-15T19:37:58+08:00 ] 127.0.0.1 /t_test/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009919s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001118s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001107s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001032s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004635s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001258s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001316s ]
+
+[ 2013-07-15T19:38:00+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001549s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001651s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.020794s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013735s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001229s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001280s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001133s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005117s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001382s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001447s ]
+
+[ 2013-07-15T19:38:05+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002691s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002881s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002325s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.006190s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008455s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000876s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000797s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004328s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001021s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2013-07-15T22:35:46+08:00 ] 127.0.0.1 /t_test/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012610s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001601s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001446s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001310s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006020s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001558s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001623s ]
+
+[ 2013-07-15T22:35:49+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002221s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002346s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.031455s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT * FROM `pro_admin` WHERE ( name=ee ) LIMIT 1   [ RunTime:0.007782s ]
+ERR: 1054:Unknown column 'ee' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pro_admin` WHERE ( name=ee ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018150s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001880s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001830s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002052s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010146s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003454s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003671s ]
+
+[ 2013-07-15T22:35:55+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001199s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.030037s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT * FROM `pro_admin` WHERE ( name=admin ) LIMIT 1   [ RunTime:0.000340s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pro_admin` WHERE ( name=admin ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017496s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002608s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002035s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001656s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008706s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002179s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002308s ]
+
+[ 2013-07-15T22:40:31+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001421s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001543s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.005635s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT * FROM `pro_admin` WHERE ( name=admin ) LIMIT 1   [ RunTime:0.000256s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pro_admin` WHERE ( name=admin ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008533s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001391s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000797s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004361s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001030s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2013-07-15T22:40:48+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001552s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001682s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.006838s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT * FROM `pro_admin` WHERE ( name=admin ) LIMIT 1   [ RunTime:0.000297s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pro_admin` WHERE ( name=admin ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009421s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000863s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000858s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000778s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003586s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001016s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2013-07-15T22:45:07+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001672s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001804s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.007315s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011306s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000892s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000880s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000799s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003676s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001024s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2013-07-15T22:45:12+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001293s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001391s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002560s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.006700s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008483s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001626s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001133s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000811s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004742s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001150s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2013-07-15T22:45:17+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002548s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002754s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002302s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.007514s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010649s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001327s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001116s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001005s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004969s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001306s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001382s ]
+
+[ 2013-07-15T22:47:11+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001488s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001640s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.005852s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT * FROM `pro_admin` WHERE ( name=asd )  [ RunTime:0.000319s ]
+ERR: 1054:Unknown column 'asd' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pro_admin` WHERE ( name=asd ) 
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009929s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000951s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000903s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000806s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003841s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001036s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2013-07-15T22:47:19+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001774s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001945s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.007692s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT * FROM `pro_admin` WHERE ( name=admin )  [ RunTime:0.000312s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pro_admin` WHERE ( name=admin ) 
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012701s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001389s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001369s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001095s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005873s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001490s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001602s ]
+
+[ 2013-07-15T22:58:15+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001263s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.006964s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1   [ RunTime:0.000353s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011714s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001187s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001171s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001116s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004966s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001522s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001602s ]
+
+[ 2013-07-15T22:59:03+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001498s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001887s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.007108s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1   [ RunTime:0.000338s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1  
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1   [ RunTime:0.000225s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011443s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000911s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000887s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000800s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003712s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001033s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2013-07-15T23:01:25+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001301s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.006120s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1   [ RunTime:0.000320s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1  
+SQL: SELECT * FROM `pro_admin`  [ RunTime:0.015039s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1   [ RunTime:0.005849s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009226s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000886s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000877s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000802s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000969s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003721s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001060s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2013-07-15T23:06:51+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002042s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002231s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001859s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.027229s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1   [ RunTime:0.000330s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1  
+SQL: SELECT * FROM `pro_admin`  [ RunTime:0.000332s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1   [ RunTime:0.000212s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012620s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001241s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001201s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001084s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005331s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001745s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001870s ]
+
+[ 2013-07-15T23:08:06+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001805s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001963s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.021999s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1   [ RunTime:0.000233s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1  
+SQL: SELECT * FROM `pro_admin` WHERE ( name=admin )  [ RunTime:0.000140s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pro_admin` WHERE ( name=admin ) 
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1   [ RunTime:0.000138s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012876s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001222s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001183s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001065s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001396s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001486s ]
+
+[ 2013-07-15T23:09:11+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001317s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001639s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.006879s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1   [ RunTime:0.000526s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1  
+SQL: SELECT * FROM `pro_admin` WHERE ( name='admin' )  [ RunTime:0.000443s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1   [ RunTime:0.000301s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009840s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001151s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000886s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000803s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004038s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001039s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001100s ]
+
+[ 2013-07-15T23:09:47+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002085s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.008267s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1   [ RunTime:0.000254s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1  
+SQL: SELECT * FROM `pro_admin` WHERE ( name='admin' )  [ RunTime:0.000309s ]
+SQL: SELECT `password` FROM `pro_admin` WHERE ( name='('name')' ) LIMIT 1   [ RunTime:0.108571s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name')' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `password` FROM `pro_admin` WHERE ( name='('name')' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008613s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000875s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000880s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000847s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004422s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001944s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002078s ]
+
+[ 2013-07-15T23:09:53+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001677s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001814s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.007526s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1   [ RunTime:0.000224s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT `password` FROM `pro_admin` WHERE ( name=admin ) LIMIT 1  
+SQL: SELECT * FROM `pro_admin` WHERE ( name='admin' )  [ RunTime:0.000379s ]
+SQL: SELECT `password` FROM `pro_admin` WHERE ( name='('name')' ) LIMIT 1   [ RunTime:0.000195s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name')' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `password` FROM `pro_admin` WHERE ( name='('name')' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008385s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000882s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001171s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001279s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004989s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001070s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001131s ]
+
+[ 2013-07-15T23:10:41+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002519s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002710s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002205s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.005769s ]
+SQL: SELECT `password` FROM `pro_admin` WHERE ( name='('name')' ) LIMIT 1   [ RunTime:0.000281s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name')' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `password` FROM `pro_admin` WHERE ( name='('name')' ) LIMIT 1  
+SQL: SELECT * FROM `pro_admin` WHERE ( name='admin' )  [ RunTime:0.000366s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009353s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001013s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000888s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000810s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003827s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001037s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2013-07-15T23:11:20+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001701s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001856s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.006738s ]
+SQL: SELECT `password` FROM `pro_admin` WHERE ( name='('name')' ) LIMIT 1   [ RunTime:0.000185s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name')' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `password` FROM `pro_admin` WHERE ( name='('name')' ) LIMIT 1  
+SQL: SELECT * FROM `pro_admin` WHERE ( name='admin' )  [ RunTime:0.000300s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010005s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000900s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000854s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000774s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003622s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001014s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2013-07-15T23:11:37+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001202s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.005939s ]
+SQL: SELECT `password` FROM `pro_admin` WHERE ( name='('name')' ) LIMIT 1   [ RunTime:0.000291s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name')' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `password` FROM `pro_admin` WHERE ( name='('name')' ) LIMIT 1  
+SQL: SELECT * FROM `pro_admin` WHERE ( name='admin' )  [ RunTime:0.000629s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009506s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000861s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000859s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000780s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003589s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2013-07-15T23:12:20+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001577s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001703s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.006321s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT `password` FROM `pro_admin` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.000389s ]
+SQL: SELECT * FROM `pro_admin` WHERE ( name='admin' )  [ RunTime:0.020128s ]
+NOTIC: 建议使用I方法替代_post
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009591s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001192s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001054s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001048s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004524s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001069s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2013-07-15T23:20:37+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002708s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002913s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002192s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.005289s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT `password` FROM `pro_admin` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.000301s ]
+NOTIC: 建议使用I方法替代_post
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: str F:\www\t_test\Runtime\Cache\f344981432d1d3692f6424e1db68093e.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009729s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000886s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000850s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000797s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003678s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001032s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2013-07-15T23:20:43+08:00 ] 127.0.0.1 /t_test/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002599s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002809s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002395s ]
+SQL: SHOW COLUMNS FROM `pro_admin` [ RunTime:0.005659s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT `password` FROM `pro_admin` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.000422s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: str F:\www\t_test\Runtime\Cache\f344981432d1d3692f6424e1db68093e.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009374s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000881s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000877s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000804s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003664s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001040s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001100s ]
+
+[ 2013-07-15T11:48:08+08:00 ] 127.0.0.1 /t_test/index.php/Main/sign
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001016s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `pro_sign` [ RunTime:0.006507s ]
+SQL: SHOW COLUMNS FROM `pro_shistory` [ RunTime:0.005572s ]
+SQL: SELECT * FROM `pro_sign` WHERE ( uid='1' AND oid='1' ) LIMIT 1   [ RunTime:0.000357s ]
+NOTIC: [8] Undefined variable: msg F:\www\t_test\Lib\Action\MainAction.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' F:\www\t_test\Lib\Action\MainAction.class.php 第 80 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: list F:\www\t_test\Runtime\Cache\38dd2411953184a9684bc2acd0771941.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008996s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000647s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000648s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000364s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002317s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000868s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000931s ]
+

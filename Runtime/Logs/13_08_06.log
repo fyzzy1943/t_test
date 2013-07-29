@@ -1,0 +1,90 @@
+[ 2013-08-06T11:37:33+08:00 ] 127.0.0.1 /t_test/index.php/Main/sign
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001513s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001670s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `pro_sign` [ RunTime:0.006961s ]
+SQL: SHOW COLUMNS FROM `pro_shistory` [ RunTime:0.005788s ]
+SQL: SELECT * FROM `pro_sign` WHERE ( uid='1' AND oid='1' ) LIMIT 1   [ RunTime:0.000445s ]
+SQL: UPDATE `pro_sign` SET `uid`=1,`oid`=1,`scount`=6,`stotal`=6,`slastdate`='2013-08-06' WHERE ( `id` = 1 ) [ RunTime:0.066830s ]
+SQL: SELECT * FROM `pro_shistory` WHERE ( uid='1' AND oid='1' AND sdate='2013-08' ) LIMIT 1   [ RunTime:0.000570s ]
+NOTIC: [8] Undefined variable: msg F:\www\t_test\Lib\Action\MainAction.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\www\t_test\Lib\Action\MainAction.class.php 第 46 行.
+SQL: UPDATE `pro_shistory` SET `uid`=1,`oid`=1,`shistory`=66,`sdate`='2013-08' WHERE ( `id` = 3 ) [ RunTime:0.043020s ]
+NOTIC: [8] Use of undefined constant main - assumed 'main' F:\www\t_test\Lib\Action\MainAction.class.php 第 82 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: list F:\www\t_test\Runtime\Cache\38dd2411953184a9684bc2acd0771941.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011240s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000881s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000825s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000582s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003188s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000900s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2013-08-06T11:39:57+08:00 ] 127.0.0.1 /t_test/index.php/Main/sign
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001537s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001672s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `pro_sign` [ RunTime:0.007010s ]
+SQL: SHOW COLUMNS FROM `pro_shistory` [ RunTime:0.006842s ]
+SQL: SELECT * FROM `pro_sign` WHERE ( uid='1' AND oid='1' ) LIMIT 1   [ RunTime:0.000516s ]
+NOTIC: [8] Undefined variable: msg F:\www\t_test\Lib\Action\MainAction.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' F:\www\t_test\Lib\Action\MainAction.class.php 第 80 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: list F:\www\t_test\Runtime\Cache\38dd2411953184a9684bc2acd0771941.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008870s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000706s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000712s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000518s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002720s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000823s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2013-08-06T11:39:59+08:00 ] 127.0.0.1 /t_test/index.php/Main/sign
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001549s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001775s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `pro_sign` [ RunTime:0.006116s ]
+SQL: SHOW COLUMNS FROM `pro_shistory` [ RunTime:0.006376s ]
+SQL: SELECT * FROM `pro_sign` WHERE ( uid='1' AND oid='1' ) LIMIT 1   [ RunTime:0.000516s ]
+NOTIC: [8] Undefined variable: msg F:\www\t_test\Lib\Action\MainAction.class.php 第 31 行.
+SQL: SELECT * FROM `pro_sign` WHERE ( uid='1' AND oid='2' ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: UPDATE `pro_sign` SET `uid`=1,`oid`=2,`scount`=1,`stotal`=3,`slastdate`='2013-08-06' WHERE ( `id` = 2 ) [ RunTime:0.036718s ]
+SQL: SELECT * FROM `pro_shistory` WHERE ( uid='1' AND oid='2' AND sdate='2013-08' ) LIMIT 1   [ RunTime:0.000553s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\www\t_test\Lib\Action\MainAction.class.php 第 46 行.
+SQL: UPDATE `pro_shistory` SET `uid`=1,`oid`=2,`shistory`=66,`sdate`='2013-08' WHERE ( `id` = 4 ) [ RunTime:0.017745s ]
+NOTIC: [8] Use of undefined constant main - assumed 'main' F:\www\t_test\Lib\Action\MainAction.class.php 第 80 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: list F:\www\t_test\Runtime\Cache\38dd2411953184a9684bc2acd0771941.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009935s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000696s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000806s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000413s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002605s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001039s ]
+
