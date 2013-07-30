@@ -3,12 +3,13 @@
 class MainAction extends Action {
 	public function main() {
 		if(session('?uName')) {
-			$this->assign('msg', session('uId') . '::' . session('uName'));
+			$this->assign('msg', session('uId') . '::' . session('uName').'::'.$this->_param('msg'));
 			//获取所有签到项
 			$options=M('options');
 			$list=$options->select();
 			$this->assign('list', $list);
-			
+			$this->assign('shistory', $this->monthsign(date('Y'), date('m')));
+				
 			$this->display();
 		} else {
 			$this->error('not login', '__APP__');
@@ -28,7 +29,7 @@ class MainAction extends Action {
 			if($result=$sign->where("uid='%s' AND oid='%s'", $uid, $oid)->find()) {
 				//根据日期判断是否已经签到
 				if(0<=strcmp($result['slastdate'], date('Y-m-d'))) {
-					$msg=$msg.','.$oid.'已签到';
+					$msg=$msg.'.'.$oid.'已签到';
 				} else {
 					//是否连续签到
 					if(1==datecmp(date('Y-m-d'), $result['slastdate'])) {
@@ -53,7 +54,7 @@ class MainAction extends Action {
 						$data['shistory']=pow(2, date(d)-1);
 						$shistory->data($data)->add();
 					}
-					$msg=$msg.','.$oid.'签到成功';
+					$msg=$msg.'.'.$oid.'签到成功';
 				}
 			} else {
 				//新建数据，sign表
@@ -72,10 +73,10 @@ class MainAction extends Action {
 				$data['sdate']=date('Y-m');
 				$data['shistory']=pow(2, date(d)-1);
 				$shistory->data($data)->add();
-				$msg=$msg.','.$oid.'签到成功';
+				$msg=$msg.'.'.$oid.'签到成功';
 			}
 		}
-		$this->redirect('result', array('msg'=>$msg), 0, '正在跳转'.$msg);
+		$this->redirect('main', array('msg'=>$msg), 0, '正在跳转'.$msg);
 	//	$this->assign('msg', $msg);
 	}
 	
@@ -104,5 +105,18 @@ class MainAction extends Action {
 		
 		$this->assign('msg', $msg);
 		$this->display();
+	}
+	
+	private function monthsign($year, $month) {
+		$shistory=M('shistory');
+		$res_shistory=$shistory->where("sdate='%s'", $year.'-'.$month)->select();
+		for($i=0; $i<count($res_shistory, COUNT_NORMAL); $i++) {
+			//获取2进制表示的签到历史数组(arr)，并获得当月天数(month)
+			$res_shistory[$i]['arr']=toarray($res_shistory[$i]['shistory'], $res_shistory[$i]['sdate'], $res_shistory[$i]['month']);
+			//返回签到历史数组，json格式
+			$res_shistory[$i]['jso']=json_encode($res_shistory[$i]['arr'], JSON_FORCE_OBJECT);
+		}
+		
+		return $res_shistory;
 	}
 }

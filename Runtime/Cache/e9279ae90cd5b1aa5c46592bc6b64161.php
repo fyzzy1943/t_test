@@ -17,6 +17,7 @@
 		lastdate:<?php echo ($item["slastdate"]); ?><hr /><?php endforeach; endif; else: echo "" ;endif; ?>
 	
 	<div id="txt"></div>
+	<a href="__URL__/main">back</a>
 	
 	<script type="text/javascript">
 		var txt=new String();

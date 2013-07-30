@@ -5,7 +5,11 @@
 	<title>Insert title here</title>
 </head>
 <body>
-	main:{$msg|default="没有值!"} <br />
+	main:{$msg|default="没有值!"} :<a href="__URL__/result">查看所有签到</a><br />
+	
+	<hr />
+	<div id="txt" style="height:200px;"></div>
+	<hr />
 	
 	<form method="post" action="__URL__/sign">
 		<volist name="list" id="item">
@@ -13,5 +17,48 @@
 		</volist>
 		<input type="image" src="/t_test/extra/image/sign.jpg" />
 	</form>
+	
+	<script type="text/javascript">
+		var txt=new String();
+		<volist name="shistory" id="item">
+			txt+="<div style=\"width:300px;float:left;\">oid:{$item.oid} <br />";
+			txt+="date:{$item.sdate} <br />";
+			var firstDay=new Date(parseInt("{$item.sdate}".substr(0, 4)), parseInt("{$item.sdate}".substr(5, 2))-1, 1);
+			txt+="#############################<br />";
+			txt+="&nbsp;Sun Mon Tue Wed Thu Fri Sat"+"<br />";
+			
+			var count=0;
+			for(var i=0; i<firstDay.getDay(); i++) {
+				txt+="&nbsp;&nbsp;&nbsp;.";
+				count++;
+			}
+			var jso={$item.jso};
+			for(var i=1; i<={$item.month}; i++) {
+				count++;
+				if(i<10) {
+					if(jso[i-1]==1)	{
+						txt+="&nbsp;&nbsp;<b>"+i+"</b>.";
+					} else {
+						txt+="&nbsp;&nbsp;"+i+".";
+					}
+					
+				} else {
+					if(jso[i-1]==1)	{
+						txt+="&nbsp;<b>"+i+"</b>.";
+					} else {
+						txt+="&nbsp;"+i+".";
+					}
+					
+				}
+				if(count%7==0) {
+					txt+="<br />"
+				}
+				
+			} txt+="<br />";
+			txt+="#############################<br /></div>";
+		</volist>
+		
+		document.getElementById("txt").innerHTML=txt;
+	</script>
 </body>
 </html>
